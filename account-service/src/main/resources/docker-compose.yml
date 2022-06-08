@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  cassandra:
+    image: cassandra
+    ports:
+      - '9042:9042'
+
+# go to docker-compose.yml path
+# run docker compose -> docker-compose -f docker-compose.yml up -d
+# docker ps
+# docker stop containerId
+
+
+
+# username cassandra
+# password cassandra
+
